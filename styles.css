@@ -238,7 +238,7 @@ nav {
   width:20vw;
   height:auto;
 }
-/* Fichier particulier audio vidéo */
+/* Fichiers audio vidéo */
 
 .player {
   display: flex;
@@ -250,6 +250,8 @@ audio {
   margin-left:2vw;
 }
 
+
+/* Et ici le responsive */
 @media only screen and (max-width: 600px) {
   #home p, #home ol, #home ul {
     font-size:5vmax;
@@ -270,5 +272,8 @@ audio {
   #menu ul {
     margin-left:1.5vw;
     width:49vw;
+  }
+  .player {
+    font-size: 3.2vmax;;
   }
 }
