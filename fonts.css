@@ -3,3 +3,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');     
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+@font-face {
+    font-family: zarathustra;
+    src: url('fonts/zarathustra-v01-webfont.woff');
+  }
+
+  @font-face {
+    font-family: zarathustra;
+    src: url('fonts/zarathustra-v01-webfont.woff2');
+  }
+
+  .promenade {
+    font-family: zarathustra;
+  }
