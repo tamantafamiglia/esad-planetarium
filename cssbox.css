@@ -5,7 +5,7 @@
 
 
 .cssbox {
-  animation: fondu 2s linear;
+  animation: fondu 2.5s linear;
 }
 @keyframes fondu {
   from { opacity:0;}
@@ -28,7 +28,7 @@ span.cssbox_full {
 
 span.cssbox_full img {
   position: fixed;
-  background-color: white;
+  
   margin: 0;
   padding: 0;
   max-height: 90%;

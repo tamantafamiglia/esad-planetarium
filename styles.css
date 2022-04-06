@@ -6,7 +6,7 @@ body {
   font-family: 'IBM Plex Sans', sans-serif;
   overflow: hidden;
   background-size: cover;
-  background: url('img/fond.gif'), radial-gradient(circle,#747373, #dddddd);
+  background: url('medias/fond.gif'), radial-gradient(circle,#747373, #dddddd);
     background-size:contain;
     background-position: center center;
     animation: gradient 32s linear infinite;
@@ -122,6 +122,13 @@ margin:5vh auto 5vh;
 sup {
   font-size:70%;
 }
+#home img.inser {
+  max-height:50vw;
+  width:auto;
+  display: flex;
+  justify-self: center;
+  margin:0 auto;
+}
 
 /* ///// Les logo et images constantes dans l'UI ////// */
 #logo-esad  {
@@ -140,6 +147,20 @@ sup {
     bottom: 0;
     left: 12vw;
     opacity:.75;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+    font-size: 16vmin;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.download span {
+  display:block;
+  font-size: 5vmin;
 }
 
 /* ///////////////////////// Ici, tout concerne la navigation/menu //////////////////////////////////////////////////////*/
@@ -250,6 +271,24 @@ audio {
   margin-left:2vw;
 }
 
+.video-container {
+  /* width is set as 100% here. any width can be specified as per requirement */
+  width: 60%;
+  padding-top: 34%;
+  height: 0px;
+  position: relative;
+  margin:0 auto;
+  
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius:2vmin;
+}
 
 /* Et ici le responsive */
 @media only screen and (max-width: 600px) {

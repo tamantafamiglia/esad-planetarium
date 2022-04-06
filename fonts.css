@@ -14,6 +14,18 @@
     src: url('fonts/zarathustra-v01-webfont.woff2');
   }
 
+  @font-face {
+    font-family: allround;
+    src: url('fonts/allroundgothic-medium.woff');
+  }
+
   .promenade {
     font-family: zarathustra;
+  }
+  
+  .neutre {
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .apesanteur {
+    font-family: allround;
   }
