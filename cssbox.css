@@ -92,3 +92,13 @@ a:target > img.cssbox_thumb + span.cssbox_full {
     border-radius:2vmin;
   }
 /* This is the end of CSSBox */
+
+/* Et ici le responsive */
+@media only screen and (max-width: 600px) {
+  .cssbox_thumb {
+    width: 28vw;
+}
+.cssbox {
+  width: 90vw;
+}
+}
