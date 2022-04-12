@@ -324,4 +324,8 @@ audio {
   #home p.player {
     font-size: 3.2vmax;;
   }
+  .video-container {
+    width: 90%;
+    padding-top: 50%;
+}
 }
