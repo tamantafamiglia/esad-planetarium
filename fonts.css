@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');     
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Codystar&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
 @font-face {
     font-family: zarathustra;
     src: url('fonts/zarathustra-v01-webfont.woff');
@@ -19,6 +23,11 @@
     src: url('fonts/allroundgothic-medium.woff');
   }
 
+  @font-face {
+    font-family: eurostyle;
+    src: url('fonts/eurostyle.woff');
+  }
+
   .promenade {
     font-family: zarathustra;
   }
@@ -28,4 +37,15 @@
   }
   .apesanteur {
     font-family: allround;
+  }
+  .idvis {
+    font-family: eurostyle;
+  }
+
+  .station {
+    font-family: 'Codystar', cursive;
+  }
+
+  .conquete {
+    font-family: 'Space Mono', monospace;
   }

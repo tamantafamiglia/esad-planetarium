@@ -53,7 +53,7 @@ body {
 #home h1 span {
   margin-top:2vh;
   display: block;
-  font-style: italic;
+  /* font-style: italic; */
   font-size: 2vmin;
   font-weight: 300;
 }
