@@ -132,7 +132,6 @@ sup {
 
 P span {
   font-size: 70%;
-  margin-bottom: 5vh;
 }
 
 /* ///// Les logo et images constantes dans l'UI ////// */
@@ -326,8 +325,19 @@ audio {
     margin-left:1.5vw;
     width:49vw;
   }
+  #logo-esad  {
+    width: 14vw;
+  }
+  #logo-planetarium  {
+    width: 17vw;
+    left: 17vw;
+  }
+
+
+
+
   #home p.player {
-    font-size: 3.2vmax;;
+    font-size: 3.2vmax;
   }
   .video-container {
     width: 90%;
